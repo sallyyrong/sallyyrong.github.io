@@ -1,0 +1,95 @@
+body {
+  background-color: black;
+  color: white;
+  margin: 0;
+  font-family: sans-serif;
+}
+
+h1 {
+  text-align: center;
+  color: white;
+}
+h3{
+  color: white;
+  margin-left: 30px;
+}
+h2{
+  font-weight: lighter;
+}
+h5 {
+  color: white;
+}
+p {
+   margin-left: 30px;
+}
+
+
+.jobtitle {
+  text-align: center;
+  color: violet;
+  color:rgb(223, 161, 223)
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: lightslategrey;
+  background-color:rgb(170, 133, 170);
+  border-radius: 30px;
+}
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+.topnav a:hover {
+  background-color: #ddd;
+  background-color: rgb(202, 160, 202);
+  background-color: rgb(223, 161, 223);
+  background-color: white;
+  color: black;
+  padding: 10px 12px;
+  text-align: center;
+}
+.footer {
+  position: fixed;
+  left; 0;
+  bottom: 0;
+  width: 100%;
+  height: 2.5rem;
+  margin-left: 10px;
+  font-size: 14px;
+  color: violet;
+}
+.intro{
+  margin-left: 30px;
+  font-family: sans-serif;
+  font-size: 23px
+}
+
+.highlight:hover {
+  padding: 0 12px;
+  background-color: violet;
+  background-color: rgb(223, 161, 223);
+  color: white;
+}
+.highlight:focus{
+  outline: thin dotted;
+}
+
+
+
+
+
+.footer2{
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 2.5rem;
+  margin-left: 10px;
+  font-size: 14px;
+  color: violet;
+}
