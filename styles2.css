@@ -62,7 +62,7 @@ p {
   height: 2.5rem;
   margin-left: 10px;
   font-size: 14px;
-  color: violet;
+  color: rgb(223, 161, 223);
 }
 .intro{
   margin-left: 30px;
@@ -85,8 +85,18 @@ p {
 .highlight:focus{
   outline:thick;
 }
-
-
+.socials{
+  color:rgb(223, 161, 223);
+  text-decoration:underline;
+  text-decoration-color: white;
+  text-decoration-thickness: 2px;
+}
+.socials:hover{
+  padding: 0 12px;
+  background-color: violet;
+  background-color: rgb(223, 161, 223);
+  color: white;
+}
 
 
 
@@ -98,4 +108,7 @@ p {
   margin-left: 10px;
   font-size: 14px;
   color: violet;
+}
+.say-hello{
+  font-size: 12px;
 }
