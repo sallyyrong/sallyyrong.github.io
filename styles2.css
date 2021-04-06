@@ -47,12 +47,19 @@ p {
   padding: 14px 16px;
   text-decoration: none;
   font-size: 17px;
+  background-size: 230% 100%;
 }
 .topnav a:hover {
   background-color: white;
   color: black;
-  padding: 10px 12px;
+  color:rgb(170, 133, 170);
+  padding: 12px 12px;
   text-align: center;
+
+    transition: all .5s ease-out;
+    background: linear-gradient(to right, white);
+    background-position: right bottom;
+    
 }
 .footer {
   position: fixed;
@@ -106,6 +113,14 @@ p {
   margin-left: 10px;
   font-size: 14px;
   color: violet;
+}
+.contact{
+  cursor: pointer;
+  padding-right: 3%;
+}
+.contact:hover{
+transition: 0.9s;
+transform: rotate(-10deg);
 }
 .say-hello{
   font-size: 12px;
