@@ -56,6 +56,9 @@ p {
     background-position: right bottom;
     
 }
+.colorText{
+  color: #f1e7b6;
+}
 .footer {
   bottom: 0;
   width: 100%;
