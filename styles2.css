@@ -12,12 +12,9 @@ h1 {
 
 h3{
   color: white;
-
-  display: block;
 }
 h4{
   font-weight:normal;
-  line-height: 0px;
 }
 p {
   margin-left: 80px;
@@ -124,6 +121,9 @@ transform: rotate(-10deg);
   font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   font-weight: strong;
   color: rgb(223, 161, 223);
+  display: block;
+  margin-inline-end: 0px;
+  margin-inline-end: 0px;
 }
 .experienceExplain{
   margin-left: 0px;
