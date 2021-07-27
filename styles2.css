@@ -1,5 +1,5 @@
 body {
-  background-color: black;
+  background-color: #FDF6F0;
   color: white;
   margin: 0;
   font-family: sans-serif;
@@ -7,11 +7,11 @@ body {
 
 h1 {
   text-align: center;
-  color: white;
+  color: #F5C6AA;
 }
 
 h3{
-  color: white;
+  color: #FCD8D4;
 }
 h4{
   font-weight:normal;
@@ -32,14 +32,14 @@ p {
 
 .topnav {
   overflow: hidden;
-  background-color:rgb(170, 133, 170);
+  background-color: #FCD8D4;
   border-radius: 30px;
 
 }
 .topnav a {
   float: left;
   display: block;
-  color: #f2f2f2;
+  color: white;
   text-align: center;
   padding: 16px 18px;
   text-decoration: none;
@@ -48,8 +48,7 @@ p {
 }
 .topnav a:hover {
   background-color: white;
-  color: black;
-  color:rgb(170, 133, 170);
+  color:#F5C6AA;
   padding: 12px 12px;
   text-align: center;
 
@@ -60,7 +59,7 @@ p {
     
 }
 .colorText{
-  color: #f1e7b6;
+  color: #FCD8D4;
 }
 .footer {
   bottom: 0;
@@ -69,11 +68,13 @@ p {
   margin-left: 80px;
   font-size: 14px;
   color: rgb(223, 161, 223);
+  color: #F5C6AA
 }
 .intro{
   text-align: center;
   font-family: sans-serif;
-  font-size: 23px
+  font-size: 23px;
+  color: #F5C6AA;
 }
 
 .highlight{
@@ -99,7 +100,7 @@ p {
 .socials:hover{
   padding: 0 12px;
   background-color: rgb(223, 161, 223);
-  color: white;
+  color: F8E2CF;
 }
 .contact{
   cursor: pointer;
