@@ -15,6 +15,7 @@ h3{
 }
 h4{
   font-weight:normal;
+  color: #F5C6AA;
 }
 p {
   margin-left: 0px;
@@ -60,6 +61,7 @@ p {
 }
 .colorText{
   color: #FCD8D4;
+  color: rgb(223, 161, 223)
 }
 .footer {
   bottom: 0;
@@ -78,7 +80,7 @@ p {
 }
 
 .highlight{
-  color:white;
+  color: white;
   text-decoration:underline;
   text-decoration-color: rgb(223, 161, 223);
   text-decoration-thickness: 2px;
@@ -93,6 +95,7 @@ p {
 }
 .socials{
   color: white;
+  color: #F5C6AA;
   text-decoration:underline;
   text-decoration-color:  rgb(223, 161, 223);
   text-decoration-thickness: 2px;
@@ -100,6 +103,7 @@ p {
 .socials:hover{
   padding: 0 12px;
   background-color: rgb(223, 161, 223);
+  background-color: white;
   color: F8E2CF;
 }
 .contact{
@@ -130,6 +134,7 @@ p {
   font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   font-size: 18px;
   font-weight: lighter;
+  color:rgb(223, 161, 223);
 }
 .experienceContainer{
   display: block;
