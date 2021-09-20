@@ -1,5 +1,5 @@
 body {
-  background-color: #FDF6F0;
+  background-color: #F7F6F2;
   color: white;
   margin: 0;
   font-family: sans-serif;
@@ -7,33 +7,29 @@ body {
 
 h1 {
   text-align: center;
-  color: #F5C6AA;
+  color: #F1CA89;
 }
 
 h3{
-  color: #FCD8D4;
+  color: #F1CA89;
+  margin-left: 20px;
 }
 h4{
-  font-weight:normal;
-  color: #F5C6AA;
+  color: #4B6587;
+  margin-left: 20px;
 }
 p {
   margin-left: 0px;
   }
 
-.container{
+.image{
   display: block;
 }
 
 
-.jobtitle {
-  text-align: center;
-  color:rgb(223, 161, 223)
-}
-
 .topnav {
   overflow: hidden;
-  background-color: #FCD8D4;
+  background-color: #4B6587;
   border-radius: 30px;
 
 }
@@ -49,7 +45,7 @@ p {
 }
 .topnav a:hover {
   background-color: white;
-  color:#F5C6AA;
+  color: #4B6587;
   padding: 12px 12px;
   text-align: center;
 
@@ -60,8 +56,7 @@ p {
     
 }
 .colorText{
-  color: #FCD8D4;
-  color: rgb(223, 161, 223)
+  color: #F1CA89;
 }
 .footer {
   bottom: 0;
@@ -69,20 +64,20 @@ p {
   height: 2.5rem;
   margin-left: 80px;
   font-size: 14px;
-  color: rgb(223, 161, 223);
-  color: #F5C6AA
+  color: #F5C6AA;
+  color: #C8C6C6;
 }
 .intro{
   text-align: center;
   font-family: sans-serif;
   font-size: 23px;
-  color: #F5C6AA;
+  color: #4B6587;
 }
 
 .highlight{
   color: white;
   text-decoration:underline;
-  text-decoration-color: rgb(223, 161, 223);
+  text-decoration-color: #4B6587;
   text-decoration-thickness: 2px;
 }
 .highlight:hover {
@@ -94,56 +89,26 @@ p {
   outline:thick;
 }
 .socials{
-  color: white;
-  color: #F5C6AA;
+  color: #4B6587;
   text-decoration:underline;
-  text-decoration-color:  rgb(223, 161, 223);
+  text-decoration-color:  #F1CA89;
   text-decoration-thickness: 2px;
 }
 .socials:hover{
   padding: 0 12px;
-  background-color: rgb(223, 161, 223);
-  background-color: white;
-  color: F8E2CF;
+  background-color: #4B6587;
+  color: #F1CA89;
 }
-.contact{
-  cursor: pointer;
-  padding-right: 3%;
-}
-.contact:hover{
-  transition: 0.9s;
-  transform: rotate(-10deg);
-}
+
 .say-hello{
   font-size: 16px;
-  color:rgb(223, 161, 223);
+  color: #F1CA89;
   display: block;
   text-align: center;
   margin-left: 0px;
 }
-.experienceTitles{
-  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  font-weight: strong;
-  color: rgb(223, 161, 223);
-  display: block;
-  margin-inline-end: 0px;
-  margin-inline-end: 0px;
-}
-.experienceExplain{
-  margin-left: 0px;
-  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  font-size: 18px;
-  font-weight: lighter;
-  color:rgb(223, 161, 223);
-}
-.experienceContainer{
-  display: block;
-  margin-inline-end: 0px;
-  margin-inline-end: 0px;
-  margin-left: 80px;
-  margin-right: 80px;
 
-}
+
 
 /* DEMO-SPECIFIC STYLES */
 .typewriter {
@@ -166,28 +131,29 @@ p {
 /* The typewriter cursor effect */
 @keyframes blink-caret {
   from, to { border-color: transparent }
-  50% { border-color: rgb(223, 161, 223) }
+  50% { border-color: #F1CA89 }
 }
 
-.linkedin-icon{
+.icon {
   font-size: 50px;
-  color: #F5C6AA;
+  color: #F1CA89;
+  cursor: pointer;
+
 }
-.github-icon{
-  font-size: 50px;
-  color: #F5C6AA;
-}
-.email-icon{
-  font-size: 50px;
-  color: #F5C6AA;
-}
-.instagram-icon{
-  font-size: 50px;
-  color: #F5C6AA;
+
+.icon:hover{
+  transition: 0.9s;
+  transform: rotate(-10deg);
 }
 
 .icons-box{
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+/* EXPERIENCE PAGE */
+.experienceExplain{
+  color: #4B6587;
+  margin-left: 20px;
 }
